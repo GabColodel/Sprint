@@ -7,7 +7,7 @@ import numpy as np
 from flask import Flask, send_from_directory
 
 # Caminho para o arquivo Excel
-caminho_arquivo = r"C:/Users/colod/OneDrive/Desktop/Dispersao/Dispersao.xlsx"
+caminho_arquivo = r"./Dispersao.xlsx"
 
 # Ler o arquivo Excel
 df = pd.read_excel(caminho_arquivo)
