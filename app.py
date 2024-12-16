@@ -7,7 +7,7 @@ import numpy as np
 from flask import Flask, send_from_directory
 
 # Caminho para o arquivo Excel
-caminho_arquivo = r"C:\Users\colod\OneDrive\Desktop\Dispersao\Dispersao.xlsx"
+caminho_arquivo = r"C:/Users/colod/OneDrive/Desktop/Dispersao/Dispersao.xlsx"
 
 # Ler o arquivo Excel
 df = pd.read_excel(caminho_arquivo)
@@ -16,7 +16,7 @@ df = pd.read_excel(caminho_arquivo)
 df = df.reset_index()
 
 # Caminho para a pasta de vídeos
-caminho_videos = r"C:\Users\colod\OneDrive\Desktop\Dispersao"
+caminho_videos = r"C:/Users/colod/OneDrive/Desktop/Dispersao"
 
 # Configurar Flask para servir os vídeos
 server = Flask(__name__)
